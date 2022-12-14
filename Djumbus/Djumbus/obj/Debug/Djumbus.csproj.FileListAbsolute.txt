@@ -1,0 +1,8 @@
+C:\Users\ucenik\source\repos\Djumbus\Djumbus\obj\Debug\Djumbus.csproj.AssemblyReference.cache
+C:\Users\ucenik\source\repos\Djumbus\Djumbus\obj\Debug\Djumbus.csproj.SuggestedBindingRedirects.cache
+C:\Users\ucenik\source\repos\Djumbus\Djumbus\obj\Debug\Djumbus.csproj.CoreCompileInputs.cache
+C:\Users\ucenik\source\repos\Djumbus\Djumbus\bin\Debug\Djumbus.exe.config
+C:\Users\ucenik\source\repos\Djumbus\Djumbus\bin\Debug\Djumbus.exe
+C:\Users\ucenik\source\repos\Djumbus\Djumbus\bin\Debug\Djumbus.pdb
+C:\Users\ucenik\source\repos\Djumbus\Djumbus\obj\Debug\Djumbus.exe
+C:\Users\ucenik\source\repos\Djumbus\Djumbus\obj\Debug\Djumbus.pdb
