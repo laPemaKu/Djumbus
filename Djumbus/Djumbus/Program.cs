@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -58,27 +58,30 @@ namespace Djumbus
             }
 
             public int Weight { get => weight; set => weight = value; }
-            public FoodType type { get => type; set => type = value; }
 
-            public double ProteinT { get => this.weight*type.protein/100; set => type.protein = value; }
-            public double CarbsT { get => this.weight*type.carbs/100; set => type.carbs = value; }
-            public double FatT
+            public int ProteinT { get => this.weight*type.Protein/100; set => type.Protein = value; }
+            public int CarbsT { get => this.weight*type.Carbs/100; set => type.Carbs = value; }
+            public int FatT { get => this.weight*type.Fat/100; set => type.Fat = value; }
 
-            public System.Type waaa()
+            public FoodType Type()
             {
                 return this.type;
             }
 
             public string toStringInGramms()
             {
-              return "";
+                return type.Name + ": p - " + this.ProteinT + "g, c - " + this.CarbsT + "g, f - " + this.FatT + "g";
             }
 
         }
         static void Main(string[] args)
         {
-            FoodType type = new FoodType("banana", 4, 93, 3) 
+            FoodType type = new FoodType("banana", 4, 93, 3);
             Food food = new Food(110, type);
+
+            food.toStringInGramms();
+
+            Console.ReadKey();
         }
     }
 }
